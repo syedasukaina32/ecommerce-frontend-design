@@ -1,0 +1,8 @@
+# Figma exports (reference only)
+/cover/
+/design/
+image.png
+
+# OS files
+.DS_Store
+Thumbs.db
