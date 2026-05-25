@@ -1,6 +1,6 @@
 # 🛒 Ecommerce Frontend Design
 
-A pixel-perfect ecommerce website built from Figma design specifications using pure **HTML5**, **CSS3**, and **JavaScript**. Desktop only.
+https://ecommerce-figma-website.netlify.app/ A pixel-perfect ecommerce website built from Figma design specifications using pure **HTML5**, **CSS3**, and **JavaScript**. Desktop only.
 
 > **Figma Source:** [Ecommerce Web Design (Community)](https://www.figma.com/proto/8Igr4IzlG1bE1ko7gOyNQP/Ecommerce-Web-Design--Community-?node-id=1-776&p=f&scaling=min-zoom&content-scaling=fixed&page-id=1%3A4)
 
@@ -115,3 +115,6 @@ No build tools or dependencies required — pure HTML/CSS/JS.
 ---
 
 © 2023 Ecommerce. Built as a frontend development internship project.
+
+Syeda Sukaina Rizvi 
+
