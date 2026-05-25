@@ -1,0 +1,55 @@
+/* ============================================
+   VARIABLES & RESET
+   Design tokens extracted from Figma design system
+   ============================================ */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* CSS Reset - Normalize cross-browser defaults */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+/* Design Tokens - Colors, typography, spacing */
+:root{
+  /* Brand Colors */
+  --blue:#0D6EFD;
+  --blue-light:#E3F0FF;
+  --orange:#FF9017;
+  --red:#FA3434;
+  --green:#00B517;
+
+  /* Neutral Colors */
+  --dark:#1C1C1C;
+  --gray:#505050;
+  --gray-light:#8B96A5;
+  --gray-border:#DEE2E7;
+  --bg:#F7FAFC;
+  --white:#FFF;
+
+  /* Border Radius */
+  --radius:6px;
+  --radius-lg:8px;
+
+  /* Typography */
+  --font:'Inter',sans-serif;
+}
+
+/* Base Styles */
+body{font-family:var(--font);color:var(--dark);background:var(--white);line-height:1.5}
+a{text-decoration:none;color:inherit}
+ul,ol{list-style:none}
+img{max-width:100%;display:block}
+button{cursor:pointer;font-family:var(--font);border:none;background:none}
+input,select,textarea{font-family:var(--font);outline:none}
+
+/* Container - Responsive max-width for desktop scaling */
+.container{max-width:1180px;margin:0 auto;padding:0 15px}
+
+/* Desktop responsive scaling for wider screens */
+@media (min-width:1400px){
+  .container{max-width:1320px}
+}
+@media (min-width:1200px) and (max-width:1399px){
+  .container{max-width:1180px}
+}
+@media (max-width:1199px){
+  .container{max-width:960px}
+}
