@@ -95,7 +95,7 @@ ecommerce-frontend-design/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/hmurtaza720/ecommerce-frontend-design.git
+   https://github.com/syedasukaina32/ecommerce-frontend-design.git
    ```
 2. Open `index.html` in your browser
 3. Navigate between pages using the built-in links
