@@ -2,7 +2,7 @@
 
 A pixel-perfect ecommerce website built from Figma design specifications using pure **HTML5**, **CSS3**, and **JavaScript**. Desktop only.
 
-> **Figma Source:** [Ecommerce Web Design (Community)](https://www.figma.com/community/file/ecommerce-web-design)
+> **Figma Source:** [Ecommerce Web Design (Community)](https://www.figma.com/proto/8Igr4IzlG1bE1ko7gOyNQP/Ecommerce-Web-Design--Community-?node-id=1-776&p=f&scaling=min-zoom&content-scaling=fixed&page-id=1%3A4)
 
 ---
 
