@@ -1,117 +1,79 @@
-# 🛒 Ecommerce Frontend Design
+# Ecommerce Frontend Design
 
-A pixel-perfect ecommerce website built from Figma design specifications using pure **HTML5**, **CSS3**, and **JavaScript**. Desktop only.
+An ecommerce website frontend built as part of a frontend development internship task. The project recreates an ecommerce web design from a Figma prototype using **HTML**, **CSS**, and **JavaScript** — focused on desktop layout only.
 
-> **Figma Source:** [Ecommerce Web Design (Community)](https://www.figma.com/community/file/ecommerce-web-design)
+## Overview
 
----
+This project implements 5 core pages of an ecommerce platform based on the provided Figma design file. The goal was to achieve a pixel-perfect desktop implementation with clean, semantic code and interactive UI elements.
 
-## 📄 Pages
+## Pages Implemented
 
-| Page | File | Description |
-|------|------|-------------|
-| **Homepage** | `index.html` | Hero banner, deals countdown, category sections, supplier quote form, recommended items, services, regions, newsletter |
-| **Product Listing (Grid)** | `listing-grid.html` | Sidebar filters, 3-column product grid, filter tags, pagination |
-| **Product Listing (List)** | `listing-list.html` | Sidebar with price range slider, horizontal product cards, ratings filter |
-| **Product Detail** | `detail.html` | Image gallery, price tiers, specs, tabs (Description/Reviews/Shipping), related products |
-| **Shopping Cart** | `cart.html` | Cart items, coupon, order summary, saved for later, trust badges |
+- **Home Page** (`index.html`) — Main landing page with hero banner, deals section with countdown, product category grids, supplier inquiry form, recommended products, extra services, and regional suppliers.
+- **Product Listing - Grid View** (`listing-grid.html`) — Category sidebar with brand/feature filters, 3-column product card grid, active filter tags, and pagination.
+- **Product Listing - List View** (`listing-list.html`) — Same sidebar with expanded price range and condition filters, horizontal product cards with ratings and order count.
+- **Product Detail** (`detail.html`) — Product image gallery with thumbnails, pricing tiers, specification table, size selector, Add to Cart functionality, tabbed content area, supplier info card, and related products.
+- **Shopping Cart** (`cart.html`) — Cart item management with quantity selection, coupon code input, order summary with checkout, trust badges, and saved-for-later section.
 
----
+## Technologies Used
 
-## 🛠 Tech Stack
+| Technology | Usage |
+|-----------|-------|
+| HTML5 | Page structure with semantic elements |
+| CSS3 | Styling with Flexbox, CSS Grid, custom properties |
+| JavaScript | DOM manipulation, event handling, UI interactions |
+| Google Fonts | Inter typeface (400, 500, 600, 700 weights) |
 
-- **HTML5** — Semantic structure (`<header>`, `<nav>`, `<section>`, `<aside>`, `<footer>`)
-- **CSS3** — Flexbox & Grid layouts, CSS custom properties, transitions, hover effects
-- **JavaScript** — Countdown timer, image gallery, tab switching, cart actions, search bar interaction
-- **Google Fonts** — Inter (400, 500, 600, 700)
-
----
-
-## 📁 Project Structure
+## Folder Structure
 
 ```
-ecommerce-frontend-design/
-├── index.html              # Homepage
-├── listing-grid.html       # Product listing - grid view
-├── listing-list.html       # Product listing - list view
-├── detail.html             # Product detail page
-├── cart.html               # Shopping cart
+├── index.html
+├── listing-grid.html
+├── listing-list.html
+├── detail.html
+├── cart.html
 ├── css/
-│   ├── styles.css          # Main entry (imports all partials)
-│   ├── variables.css       # Design tokens, reset, typography
-│   ├── layout.css          # Header, nav, footer, newsletter
-│   ├── home.css            # Homepage sections
-│   ├── listing.css         # Listing page components
-│   ├── detail.css          # Product detail styles
-│   └── cart.css            # Cart page styles
+│   ├── styles.css           # Main stylesheet (imports partials)
+│   ├── variables.css        # Design tokens and CSS reset
+│   ├── layout.css           # Shared components (header, footer, nav)
+│   ├── home.css             # Home page specific styles
+│   ├── listing.css          # Product listing styles
+│   ├── detail.css           # Product detail styles
+│   └── cart.css             # Shopping cart styles
 ├── js/
-│   └── main.js             # All interactive functionality
+│   └── main.js              # JavaScript functionality
 └── design system/
-    ├── Brand/              # Logo SVGs (colored, white, symbol)
-    └── Image/
-        ├── tech/           # Electronics product images
-        ├── cloth/          # Clothing product images
-        └── interior/       # Home & interior product images
+    ├── Brand/               # SVG logos
+    └── Image/               # Product images (tech, cloth, interior)
 ```
 
----
+## JavaScript Features
 
-## 🎨 Design System
+- Countdown timer for deals section
+- Image gallery with thumbnail navigation
+- Tab switching on product detail page
+- Filter tag add/remove with clear all option
+- Grid and list view toggle
+- Shopping cart item removal with animations
+- Add to Cart button with size validation
+- Search bar with focus state effects
+- Newsletter subscription feedback
 
-| Token | Value |
-|-------|-------|
-| Primary Blue | `#0D6EFD` |
-| Blue Light | `#E3F0FF` |
-| Orange (Stars) | `#FF9017` |
-| Red (Discounts) | `#FA3434` |
-| Green (Stock/Success) | `#00B517` |
-| Dark Text | `#1C1C1C` |
-| Gray Text | `#505050` |
-| Light Gray | `#8B96A5` |
-| Border | `#DEE2E7` |
-| Background | `#F7FAFC` |
-| Font | Inter |
-| Border Radius | 6px (cards), 8px (buttons) |
+## Design Tokens
 
----
+The project uses CSS custom properties for a consistent design system:
 
-## ⚡ Features
+- **Primary Color:** `#0D6EFD`
+- **Accent Orange:** `#FF9017`
+- **Error Red:** `#FA3434`
+- **Success Green:** `#00B517`
+- **Font Family:** Inter
 
-- ✅ Pixel-perfect Figma implementation
-- ✅ Live countdown timer (Deals section)
-- ✅ Product image gallery with thumbnail switching
-- ✅ Tab navigation (Description / Reviews / Shipping / About seller)
-- ✅ Filter tag removal with "Clear all"
-- ✅ Grid ↔ List view toggle
-- ✅ Cart item remove with animation
-- ✅ Add to Cart with size validation
-- ✅ Search bar focus effects
-- ✅ Newsletter subscribe feedback
-- ✅ Hover effects on all interactive elements
+## How to View
 
----
+Simply open `index.html` in any modern desktop browser. All pages are linked together through internal navigation. No build tools or server required.
 
-## 🚀 How to Run
+## Weekly Progress
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/hmurtaza720/ecommerce-frontend-design.git
-   ```
-2. Open `index.html` in your browser
-3. Navigate between pages using the built-in links
-
-No build tools or dependencies required — pure HTML/CSS/JS.
-
----
-
-## 📅 Development Timeline
-
-| Week | Deliverable |
-|------|-------------|
-| Week 1 | Header, footer, project structure, design system |
-| Week 2 | Homepage, product listing pages (grid & list) |
-| Week 3 | Product detail page, cart, JavaScript interactivity |
-
----
-
-© 2023 Ecommerce. Built as a frontend development internship project.
+**Week 1** — Project setup, design analysis, header and footer implementation  
+**Week 2** — Home page layout, product listing pages with grid and list views  
+**Week 3** — Product detail page, shopping cart, JavaScript interactivity and polish
